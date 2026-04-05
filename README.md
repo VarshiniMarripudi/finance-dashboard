@@ -61,5 +61,4 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 4. **View the Dashboard:**
    Open the browser link displayed in your terminal (typically `http://localhost:5173/`).
 
-## Evaluation Criteria Satisfied
-All core and optional requirements listed have been addressed thoughtfully including RBAC UI handling, robust State Management using Context API without prop drilling, empty states handling, data modularity, and premium responsiveness!
+
