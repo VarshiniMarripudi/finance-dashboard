@@ -1,0 +1,76 @@
+.insightsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.insightsCard {
+  width: 100%;
+}
+
+.chartWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+}
+
+.emptyState {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+.observationList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.observationItem {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+  padding: var(--space-3);
+  background: var(--bg-main);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+.iconBox {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.iconBox.blue {
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--primary);
+}
+
+.iconBox.green {
+  background: var(--success-bg);
+  color: var(--success);
+}
+
+.iconBox.red {
+  background: var(--danger-bg);
+  color: var(--danger);
+}
+
+.obsvTitle {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--text-main);
+  margin: 0 0 var(--space-1);
+}
+
+.obsvDesc {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.4;
+}

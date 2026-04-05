@@ -1,0 +1,66 @@
+.overviewContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  margin-bottom: var(--space-6);
+}
+
+.summaryCard {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-6);
+  background: var(--bg-card);
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.cardTitle {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.cardAmount {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.iconWrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconWrapper.neutral {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+.iconBlue { color: var(--primary); }
+
+.iconWrapper.success {
+  background-color: var(--success-bg);
+}
+.iconGreen { color: var(--success); }
+
+.iconWrapper.danger {
+  background-color: var(--danger-bg);
+}
+.iconRed { color: var(--danger); }
+
+.chartCard {
+  width: 100%;
+}
+
+.chartContent {
+  padding-top: 0;
+}
